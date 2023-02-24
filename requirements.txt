@@ -2,10 +2,11 @@ future
 numpy
 onnx
 pydot
-torch
 torchviz
 scikit-learn
 tqdm
 torchrec-nightly
 torchx-nightly
 tensorboard
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch==1.12.0+cu116
